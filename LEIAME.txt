@@ -1,0 +1,32 @@
+# Estudo de Caso 3 - Sistema de IA Generativa com Agentes de IA, MCP (Model Context Protocol), LangGraph e PydanticAI
+
+# Abra o terminal ou prompt de comando, navegue até a pasta com os arquivos e execute o comando abaixo para criar um ambiente virtual:
+
+conda create --name mcp_env python=3.12
+
+# Ative o ambiente:
+
+conda activate mcp_env (ou: source activate mcp_env)
+
+# Instale o pip e as dependências:
+
+conda install pip
+pip install -r requirements.txt 
+
+# Execute o comando abaixo para inicializar o servidor MCP:
+
+python mcp_server_database.py
+
+# Abra OUTRO prompt de comando, navegue até a pasta com os arquivos e ative o ambiente virtual:
+
+conda activate mcp_env
+
+# Execute cada comando abaixo para executar a app (faça o ajuste no servidor MCP conforme mostrado nas aulas):
+
+python mcp_app_langgraph.py
+python mcp_app_pydantic_ai.py
+
+# Use os comandos abaixo para desativar o ambiente virtual e remover o ambiente (opcional):
+
+conda deactivate
+conda remove --name mcp_env --all
