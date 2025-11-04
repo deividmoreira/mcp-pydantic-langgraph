@@ -51,20 +51,4 @@ conda deactivate
 conda remove --name mcp_env --all  # opcional
 ```
 
-## Pontos para Destacar no LinkedIn
 
-1. Valor de negócio: centralizar ferramentas MCP validadas por Pydantic e expô-las para qualquer agente compatível.
-2. Escalabilidade: basta adicionar novos servidores MCP ou ferramentas para expandir o portfólio de automações.
-3. Dev Experience: código limpo, comentado e pronto para forks ou adaptações em projetos corporativos.
-4. Aprendizados: integração MCP + LangGraph, gestão de estado com `MemorySaver`, streaming SSE e configuração declarativa de agentes.
-
-## Próximos Passos Sugeridos
-
-- Adicionar dashboards de observabilidade com LangSmith ou OpenTelemetry.
-- Criar ferramentas MCP adicionais (ex.: CRM, analytics, automação de marketing).
-- Publicar um vídeo curto demonstrando o fluxo de interação dos agentes.
-- Escrever um artigo médio explicando detalhes de implementação.
-
----
-
-Se você utilizar este projeto em um post no LinkedIn, sinta-se à vontade para marcar e comentar quais adaptações realizou. Bons estudos com MCP! 🎯
